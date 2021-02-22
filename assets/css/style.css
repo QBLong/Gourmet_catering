@@ -1,0 +1,212 @@
+/* Common */
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Georgia, Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.row {
+    /* display: inline-block; */
+}
+
+.col {
+    display: inline-block;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.col-half {
+    width: 50%;
+    padding: 12px 24px;
+}
+
+.col-third {
+    width: calc(100% / 3);
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+/* Main */
+#main {
+
+} 
+
+#header {
+    padding: 8px 16px;
+    height: 54px;
+    background-color: #fff;
+    letter-spacing: 4px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+}
+
+#header .nav-item {
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+    display: inline-block;
+}
+
+#header .nav-item:hover {
+    background-color: #ccc;
+}
+
+#content {
+    
+}
+
+#content #Home {
+    /* margin-top: 54px; */
+    padding-top: 50%;
+    background-image: url("../image/hamburger.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+#content #Home .Title {
+    font-family: "Playfair Display";
+    font-size: 36px;
+    position: absolute;
+    letter-spacing: 4px;
+    opacity: 0.6;
+    bottom: 0;
+    left: 0;
+    padding: 12px 24px;
+}
+
+#Home #Home-title {
+    margin: 10px 0;
+}
+
+#content .content-section {
+    padding: 64px;
+}
+
+.about-img, .about-content {
+    width: 50%;
+    text-align: center;
+    padding: 12px 24px;
+}
+
+#content #About-section .About-header{
+    font-family: "Playfair Display";
+    font-size: 36px;
+    letter-spacing: 4px;
+    margin: 18px 0 40px 0;
+}
+
+#About-section .About-sub-header {
+    margin: 10px 0;
+    letter-spacing: 5px;
+    font-family: "Playfair Display";
+}
+
+#About-section .About-description {
+    margin: 18px 0;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+#About-section .About-description span {
+    padding: 0 8px;
+    height: 27px;
+    width: 77px;
+    background-color: #ccc;
+}
+
+#About-section .sub-description {
+    color: #757575;
+    text-align: left;
+    line-height: 1.6;
+    margin: 18px 0;
+    font-size: 18px;
+}
+
+hr {
+    width: 1100px;
+    border: 0;
+    border-top: 2px solid #eee;
+    box-sizing: border-box;
+    margin: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-description .menu-header {
+    font-size: 36px;
+    margin: 10px 0;
+    text-align: center;
+    letter-spacing: 4px;
+    font-family: "Playfair Display";
+}
+
+.menu-description .menu-item {
+    padding: 20px 0;
+}
+
+.menu-description .menu-item .item-name {
+    font-size: 20px;
+    margin: 10px 0;
+    letter-spacing: 4px;
+    font-family: "Playfair Display";
+    font-weight: 400;
+}
+
+.menu-description .menu-item .item-description {
+    color: #757575;
+}
+
+#Contact-section .contact-header {
+    font-size: 36px;
+    font-family: "Playfair Display";
+    letter-spacing: 4px;
+    margin: 10px 0;
+}
+
+.contact-info p {
+    margin: 15px 0;
+}
+
+.contact-info .Address {
+    margin: 0;
+    font-size: 18px;
+    color: #607d8b;
+    font-weight: 800;
+}
+
+.get-info input {
+    width: 100%;
+    padding: 16px 8px;
+    border: none;
+    border-bottom: 1px solid #757575;
+    margin-bottom: 16px;
+}
+
+
+
