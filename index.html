@@ -151,20 +151,24 @@
                     </div>
                     
                     <div class="get-info">
-                        <input type="text" id="name" placeholder="Name">
+                        <input type="text" id="name" placeholder="Name" required name="Name">
 
-                        <input type="number" id="number-of-people" placeholder="How many people">
+                        <input type="number" id="number-of-people" placeholder="How many people" required name="quantity">
 
-                        <input type="datetime-local" id="date-time" value="2020-11-16T20:00" placeholder="Date and time">
+                        <input type="datetime-local" id="date-time" value="2020-11-16T20:00" placeholder="Date and time" required name="Date time">
 
-                        <input type="text" id="message" placeholder="Message \ Special requirements">
+                        <input type="text" id="message" placeholder="Message \ Special requirements" required name="message">
+
+                        <button type="submit" class="send-btn">Send message</button>
                     </div>
                 </div>
             </div>
         </div>
     
         <div id="footer">
-    
+            <p class="footer-content">
+                Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+            </p>
         </div>
     </div>
 </body>
